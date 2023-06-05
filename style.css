@@ -65,27 +65,6 @@
             border-radius: 4px;
             text-decoration: none;
         }
-        .social-icons {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-        }
-        
-        .social-icons li {
-            margin-right: 10px;
-        }
-        
-        .social-icons li a {
-            display: inline-block;
-            width: 30px;
-            height: 30px;
-            background-color: #007bff;
-            color: #ffffff;
-            border-radius: 50%;
-            text-align: center;
-            line-height: 30px;
-            text-decoration: none;
-        }
-    </style>
-</head>
+      .fra{
+        height: 400px;
+      }  
