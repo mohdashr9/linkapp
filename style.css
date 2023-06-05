@@ -1,0 +1,91 @@
+.button {
+    display: inline-block;
+    border-radius: 7px;
+    border: none;
+    background: #1875FF;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 0px 14px 56px -11px #1875FF;
+    width: 10em;
+    padding: 1em;
+    transition: all 0.4s;
+    cursor: pointer;
+   }
+   
+   .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+   }
+   
+   .button span:after {
+    content: 'for free';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+   }
+   
+   .button:hover span {
+    padding-right: 3.55em;
+   }
+   
+   .button:hover span:after {
+    opacity: 4;
+    right: 0;
+   }
+          /* قواعد تنسيق CSS */
+          body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: #333333;
+        }
+        
+        .container {
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .button {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+        .social-icons {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        
+        .social-icons li {
+            margin-right: 10px;
+        }
+        
+        .social-icons li a {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background-color: #007bff;
+            color: #ffffff;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            text-decoration: none;
+        }
+    </style>
+</head>
